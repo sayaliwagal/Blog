@@ -1,0 +1,211 @@
+@media screen and ( max-width : 800px){
+     html, body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    } 
+    .topnav .container {
+        padding: 0  20px;
+    }
+    .navlist {
+        position: absolute;
+        width: 220px;
+        height: 100vh;
+        top: 100%;
+        right: -400px;
+        flex-direction: column;
+        z-index: 999999;
+        padding: 30px;
+        background-color: #eaeaea;
+        transition: 0.3s ease-in-out;
+        /* display: none; */
+    }
+    .dark .navlist {
+        background-color: #363636;
+    }
+
+    .navoff {
+        display: block;
+         
+    }
+    .bar {
+        color: #000;
+    }
+    .dark .bar {
+        background-color: #ffffffd6;
+    }
+
+    .header-img {
+        height: 85vh;
+        padding: 20px;
+    }
+
+    .header-title {
+        font-size: 30px;
+    }
+
+    .header-pera {
+        padding-right: 1rem;
+    }
+    .header-card {
+        max-width: 100%;
+        min-width: 100%;
+        padding: 0 32px;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .h-card-info {
+        padding: 4rem 20px;
+
+    }
+    .header-slider {
+        padding: 0 20px;
+    }
+
+    .three-cards{
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .filter {
+        flex-wrap: wrap;
+    }
+    .filter-name {
+        width: 45%;
+       justify-content: center;
+       flex-wrap: wrap;
+    }
+   .filter-cards {
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+   }
+
+    .featured-cards{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 50px;
+
+    }
+    .gfbg{
+        height: auto;
+        padding: 30px 20px ;
+    }
+    .gfbg .container  {
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+    }
+
+    .greenworld .fruitworld  {
+        width: 100%;
+        padding: 20px;
+    }
+
+     .greenworld img{
+        width: 80%;
+    }
+
+    .fruitworld img{
+        width: 80%;
+    }
+
+    .breackfast-sec{
+        flex-direction: column;
+        padding: 0 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .left-side .right-side{
+        width: 100%;
+    }
+
+    .left-posts .tcard {
+        width: 100%;
+    }
+    .left-posts .tcard .tcard-img{
+        width: 100%;
+        height: 56%;
+    }
+
+    .right-side {
+        margin-top: 3rem;
+    }
+
+    footer .container {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .logo h1 {
+        font-size: 24px;
+    }
+    .logo img{
+        width: 38px;
+    }
+
+    .filter-name{
+        width: 45%;
+        height: 130px;
+        padding: 10px;
+    }
+    .filter .flex h3 {
+        font-size: 15px;
+    }
+
+    .tcard {
+        width: 100%;
+    }
+    .greenworld img {
+        display: none;
+    }
+
+    .fruitworld img{
+        display: none; 
+    }
+
+    .greenworld .fruitworld {
+        width: 300px;
+        height: 100px;
+        padding: 0 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-box{
+        padding: 0 30px;
+    }
+
+    .your-ads {
+    padding: 20px 40px;
+    }
+
+    
+    .footer-logo{
+
+        width: 100%;
+        margin: 0 ;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-nav{
+        width: 100%;
+        margin: 30px 0;
+        text-align: center;
+    }
+    .footer-nav ul {
+        align-items: center;
+    }
+
+}

@@ -1,0 +1,87 @@
+.dark{
+    --bg-dark: #0c121a;
+    background-color: var(--bg-dark);
+    color: #fff;
+}
+.dark .mainnav {
+    background-color: var(--bg-dark);
+}
+
+.dark .logo h1 {
+    color: #fff;
+}
+.dark .search i {
+    color: #eaeaea;
+}
+
+.dark .header-card {
+    background-color: c;
+    box-shadow:  0 0 5px #999;
+}
+
+.dark .header-card h3{
+    color: #432905;
+}
+.dark .tcard {
+    box-shadow: 0 0 5px #999;
+}
+
+.dark .tcard-info h2{
+    color: #a5a5a7;
+}
+
+.dark .tcard-info p{
+    color: #777;
+}
+
+.dark .tcard-btn:hover {
+    box-shadow:  0 0 20px var(--main-color);
+} 
+
+.dark .cate-card {
+    box-shadow:  0 0 5px #999;
+}
+
+.dark .cate-card:hover {
+    box-shadow: 0 0 15px #999;
+}
+
+.dark .filter-name {
+    background-color: var(--bg-dark);
+    box-shadow:  0 0 5px #999;
+}
+
+.dark .featured-title h1{
+    color: #ffecd1;
+}
+.dark .left-side .left-box-title h1 {
+    color: #ffecd1;
+}
+.dark .left-side .tcard .tcard-info h2 {
+    color: #ffecd1;
+}
+
+.dark .about-box {
+    background-color: var(--bg-dark);
+    box-shadow: 0 0 5px #999;
+}
+
+.dark .tr-post h4 {
+    color: #bfbfbf;
+}
+
+.dark .tr-post p {
+    color: #777;
+}
+
+.dark .f-auth-name {
+    background-color: var(--bg-dark);
+}
+
+.dark .f-auth h5 {
+    color: #dfdede;
+}
+
+.dark .f-auth p {
+    color: #999;
+}
