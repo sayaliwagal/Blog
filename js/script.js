@@ -26,7 +26,7 @@ const posts = [
         title: "Browny Cookies",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam vel dolor molestias,dignissimos numquam obcaecati.",
         link: "https://google.com/",
-        bgImg: "/images/dark-chocolate-halloween-cookies-1b.webp",
+        bgImg: "./images/dark-chocolate-halloween-cookies-1b.webp",
         label: "Cookies"
 
     },
@@ -34,7 +34,7 @@ const posts = [
         title: "Caramel Cookies",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam vel dolor molestias,dignissimos numquam obcaecati.",
         link: "https://google.com/",
-        bgImg: "/images/caramel_cookies.jpg",
+        bgImg: "./images/caramel_cookies.jpg",
         label: "Cookies"
 
     },
@@ -42,7 +42,7 @@ const posts = [
         title: "Browny Cake",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam vel dolor molestias,dignissimos numquam obcaecati.",
         link: "https://google.com/",
-        bgImg: "/images/sq-round-rosey-brown-chocolate-cake-cake2570choc-A_1.avif",
+        bgImg: "./images/sq-round-rosey-brown-chocolate-cake-cake2570choc-A_1.avif",
         label: "Cakes"
 
     },
@@ -50,7 +50,7 @@ const posts = [
         title: "Cheesay Pizza",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam vel dolor molestias,dignissimos numquam obcaecati.",
         link: "https://google.com/",
-        bgImg: "/images/pizza.webp",
+        bgImg: "./images/pizza.webp",
         label: "Pizzas"
 
     },
@@ -58,7 +58,7 @@ const posts = [
         title: "Red Sause Pasta",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam vel dolor molestias,dignissimos numquam obcaecati.",
         link: "https://google.com/",
-        bgImg: "/images/red_sauce_past.jpg",
+        bgImg: "./images/red_sauce_past.jpg",
         label: "Pastas"
 
     },
@@ -66,7 +66,7 @@ const posts = [
         title: "Spicy Thai Noodles",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam vel dolor molestias,dignissimos numquam obcaecati.",
         link: "https://google.com/",
-        bgImg: "/images/Spicy-Thai-Noodles-5.jpg",
+        bgImg: "./images/Spicy-Thai-Noodles-5.jpg",
         label: "Noodles"
 
     }
@@ -172,23 +172,23 @@ const idDarkMode = localStorage.getItem('darkmood') === 'true';
 if(idDarkMode) {
     body.classList.add('dark')
     darkmood.checked = true;
-    logoImage.src = '/images/sayâ__s_recipes_dark-transformed.png'
-    logoImage1.src = '/images/recipes_dark-transformed.png'
+    logoImage.src = './images/sayâ__s_recipes_dark-transformed.png'
+    logoImage1.src = './images/recipes_dark-transformed.png'
 }else{
-logoImage.src = '/images/sayâ__s_recipes-eeuplmY7q-transformed.png'
-logoImage1.src = '/images/Untitled_design-npkCckjZc-transformed.png'
+logoImage.src = './images/sayâ__s_recipes-eeuplmY7q-transformed.png'
+logoImage1.src = './images/Untitled_design-npkCckjZc-transformed.png'
 }
 
 darkmood.addEventListener('change', ()=>{
     if(darkmood.checked){
         body.classList.add('dark')
-        logoImage.src = '/images/sayâ__s_recipes_dark-transformed.png'
-        logoImage1.src = '/images/recipes_dark-transformed.png'
+        logoImage.src = './images/sayâ__s_recipes_dark-transformed.png'
+        logoImage1.src = './images/recipes_dark-transformed.png'
         localStorage.setItem('darkmode', 'true');
     }else{
         body.classList.remove('dark')
-        logoImage.src = '/images/sayâ__s_recipes-eeuplmY7q-transformed.png'
-        logoImage1.src = '/images/Untitled_design-npkCckjZc-transformed.png'
+        logoImage.src = './images/sayâ__s_recipes-eeuplmY7q-transformed.png'
+        logoImage1.src = './images/Untitled_design-npkCckjZc-transformed.png'
         localStorage.setItem('darkmood', 'false');
     }
 });
